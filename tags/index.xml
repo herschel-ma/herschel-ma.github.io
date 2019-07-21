@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Even - A super concise theme for Hugo</title>
-    <link>https://herschel-ma.github.io/tags/</link>
-    <description>Recent content in Tags on Even - A super concise theme for Hugo</description>
+    <title>Tags on Pythonic think and to do</title>
+    <link>https://herschel-ma.github.ioo/tags/</link>
+    <description>Recent content in Tags on Pythonic think and to do</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>zh</language>
     <lastBuildDate>Sun, 21 Jul 2019 18:32:44 +0800</lastBuildDate>
     
-	<atom:link href="https://herschel-ma.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://herschel-ma.github.ioo/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>算法</title>
-      <link>https://herschel-ma.github.io/tags/%E7%AE%97%E6%B3%95/</link>
+      <link>https://herschel-ma.github.ioo/tags/%E7%AE%97%E6%B3%95/</link>
       <pubDate>Sun, 21 Jul 2019 18:32:44 +0800</pubDate>
       
-      <guid>https://herschel-ma.github.io/tags/%E7%AE%97%E6%B3%95/</guid>
+      <guid>https://herschel-ma.github.ioo/tags/%E7%AE%97%E6%B3%95/</guid>
       <description></description>
     </item>
     
     <item>
       <title>django</title>
-      <link>https://herschel-ma.github.io/tags/django/</link>
+      <link>https://herschel-ma.github.ioo/tags/django/</link>
       <pubDate>Sun, 21 Jul 2019 15:35:27 +0800</pubDate>
       
-      <guid>https://herschel-ma.github.io/tags/django/</guid>
+      <guid>https://herschel-ma.github.ioo/tags/django/</guid>
       <description></description>
     </item>
     

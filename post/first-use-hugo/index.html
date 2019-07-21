@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>404 page not found - Even - A super concise theme for Hugo</title>
+  <title>First Use Hugo - Even - A super concise theme for Hugo</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="olOwOlo" /><meta name="description" content="Hugo theme even example site." /><meta name="keywords" content="Hugo, theme, even" />
+<meta name="author" content="herschel" /><meta name="description" content="第一次使用hugo" /><meta name="keywords" content="Hugo, theme, even" />
 
 
 
@@ -26,7 +26,7 @@
 <meta name="generator" content="Hugo 0.55.6 with even 4.0.0" />
 
 
-<link rel="canonical" href="https://herschel-ma.github.io/404.html" />
+<link rel="canonical" href="https://herschel-ma.github.io/post/first-use-hugo/" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -38,18 +38,27 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
-<meta property="og:title" content="404 Page not found" />
-<meta property="og:description" content="Hugo theme even example site." />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://herschel-ma.github.io/404.html" />
+<meta property="og:title" content="First Use Hugo" />
+<meta property="og:description" content="第一次使用hugo" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://herschel-ma.github.io/post/first-use-hugo/" />
+<meta property="article:published_time" content="2019-07-21T14:29:43&#43;08:00"/>
+<meta property="article:modified_time" content="2019-07-21T14:29:43&#43;08:00"/>
+
+<meta itemprop="name" content="First Use Hugo">
+<meta itemprop="description" content="第一次使用hugo">
 
 
-<meta itemprop="name" content="404 Page not found">
-<meta itemprop="description" content="Hugo theme even example site.">
+<meta itemprop="datePublished" content="2019-07-21T14:29:43&#43;08:00" />
+<meta itemprop="dateModified" content="2019-07-21T14:29:43&#43;08:00" />
+<meta itemprop="wordCount" content="542">
 
+
+
+<meta itemprop="keywords" content="Django," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="404 Page not found"/>
-<meta name="twitter:description" content="Hugo theme even example site."/>
+<meta name="twitter:title" content="First Use Hugo"/>
+<meta name="twitter:description" content="第一次使用hugo"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -109,20 +118,118 @@
     <main id="main" class="main">
       <div class="content-wrapper">
         <div id="content" class="content">
-          <div class="not-found">
-  <h1 class="error-emoji"></h1>
-  <p class="error-text">/* 404 page not found. */</p>
-  <p class="error-link"><a href="/">↑ Back Home ↑</a></p>
-</div>
-<script>
-  var errorEmojiContainer = document.getElementsByClassName('error-emoji')[0];
-  var emojiArray = [
-    '\\(o_o)/', '(o^^)o', '(˚Δ˚)b', '(^-^*)', '(≥o≤)', '(^_^)b', '(·_·)',
-    '(=\'X\'=)', '(>_<)', '(;-;)', '\\(^Д^)/',
-  ];
-  var errorEmoji = emojiArray[Math.floor(Math.random() * emojiArray.length)];
-  errorEmojiContainer.appendChild(document.createTextNode(errorEmoji));
-</script>
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">First Use Hugo</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2019-07-21 </span>
+        <div class="post-category">
+            <a href="/categories/python/"> python </a>
+            </div>
+        
+      </div>
+    </header>
+
+    
+    <div class="post-content">
+      <h1 id="hugo使用">Hugo使用</h1>
+
+<ul>
+<li><p>虽然这是配置比较简单的静态博客,但还是折腾了我半天，感谢CodeSheep的示范</p>
+
+<h2 id="下载hugo">下载Hugo</h2></li>
+
+<li><p>我使用的是Ubuntu18.04，<code>sudo apt-get upgrade</code></p></li>
+
+<li><p><code>sudo apt-get install hugo</code></p></li>
+
+<li><p><code>hugo version</code></p></li>
+
+<li><p>简单几步就可以下载使用Hugo了</p>
+
+<h2 id="创建博客文件">创建博客文件</h2></li>
+
+<li><p>一般来说此博客文件是Hugo的Blog以后主要依赖文件，一定要用命令去创建</p></li>
+
+<li><p><code>hugo new site myblog</code></p>
+
+<h2 id="挑选主题">挑选主题</h2></li>
+
+<li><p>先准备好git</p></li>
+
+<li><p><a href="theme.hugo.io">官网</a>挑选好自己的主题，最看看ReadMe</p></li>
+
+<li><p>克隆下载(我的是light-hugo主题)</p>
+
+<h2 id="本地启动">本地启动</h2></li>
+
+<li><p><code>hugo -t light-hugo --buildDrafts</code>或者<code>hugo -t light-hugo -D</code></p>
+
+<h2 id="真正写一篇博文">真正写一篇博文</h2></li>
+
+<li><p><code>hugo new post/xxx.md</code></p></li>
+
+<li><p>一定要在post下，血的教训</p>
+
+<h2 id="部署到白嫖的github上面">部署到白嫖的github上面</h2></li>
+
+<li><p>在github上面以自己的昵称create a new empty repository</p>
+
+<ul>
+<li><em>要注意的是在这里名称一定不能写错，博主就是在建仓库的时候名称缺写了个c从而出现问题，登录xxx.github.io无效</em></li>
+</ul></li>
+
+<li><p><code>hugo --theme=light-hugo --baseUrl=&quot;https://herschel-ma.github.io/&quot; --buildDrafts</code></p>
+
+<ul>
+<li><em>这里同样不能少最后的&ndash;，博主就是粗心少了，导致访问出现404，最后还得版本回退，pull -rebase origin master,再push</em></li>
+</ul></li>
+
+<li><p>到这里基本就大功告成了，接着就是熟悉的git提交了</p></li>
+
+<li><p>上一步之后出现了public文件夹</p>
+
+<ul>
+<li><code>cd public/</code></li>
+</ul></li>
+
+<li><p><code>git init</code></p></li>
+
+<li><p><code>git add .</code></p></li>
+
+<li><p><code>git commit -m &quot;我的Hugo第一次测试提交&quot;</code></p></li>
+
+<li><p><code>git remote add origin https://github.com/herschel-ma/herschel-ma.github.io.git</code></p></li>
+
+<li><p><code>git push -u origin master</code></p>
+
+<h2 id="总结">总结</h2></li>
+
+<li><p>这样就完成了Hugo博客的搭建，虽然有点丑，但本篇重在部署，之后再进行优化吧</p></li>
+</ul>
+    </div>
+
+    
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/django/">Django</a>
+          </div>
+      <nav class="post-nav">
+        <a class="prev" href="/post/selenuim%E7%AE%80%E5%8D%95%E7%88%AC%E5%8F%96%E6%8B%89%E5%8B%BE/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">Selenuim简单爬取拉勾</span>
+            <span class="prev-text nav-mobile">上一篇</span>
+          </a>
+        <a class="next" href="/post/xxx/">
+            <span class="next-text nav-default">Xxx</span>
+            <span class="next-text nav-mobile">下一篇</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
         </div>
         
 

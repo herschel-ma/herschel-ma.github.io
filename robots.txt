@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: uildDrafts/sitemap.xml
+Sitemap: https://herschel-ma.github.io/sitemap.xml

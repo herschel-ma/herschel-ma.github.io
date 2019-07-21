@@ -2,13 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Even - A super concise theme for Hugo</title>
-    <link>uildDrafts/categories/</link>
+    <link>https://herschel-ma.github.io/categories/</link>
     <description>Recent content in Categories on Even - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <lastBuildDate>Sun, 21 Jul 2019 15:35:27 +0800</lastBuildDate>
     
-	<atom:link href="uildDrafts/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://herschel-ma.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>python</title>
+      <link>https://herschel-ma.github.io/categories/python/</link>
+      <pubDate>Sun, 21 Jul 2019 15:35:27 +0800</pubDate>
+      
+      <guid>https://herschel-ma.github.io/categories/python/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

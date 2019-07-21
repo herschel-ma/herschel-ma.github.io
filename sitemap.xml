@@ -1,19 +1,81 @@
-<?xml-stylesheet type="text/xsl" href="http://localhost:1313/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://herschel-ma.github.io/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://herschel-ma.github.io/post/bubble-sort/</loc>
+    <lastmod>2019-07-21T18:32:44+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://herschel-ma.github.io/categories/</loc>
+    <lastmod>2019-07-21T18:32:44+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://herschel-ma.github.io/</loc>
+    <lastmod>2019-07-21T18:32:44+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://herschel-ma.github.io/post/</loc>
+    <lastmod>2019-07-21T18:32:44+08:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://herschel-ma.github.io/tags/</loc>
+    <lastmod>2019-07-21T18:32:44+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://herschel-ma.github.io/categories/python/</loc>
+    <lastmod>2019-07-21T18:32:44+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://herschel-ma.github.io/tags/%E7%AE%97%E6%B3%95/</loc>
+    <lastmod>2019-07-21T18:32:44+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://herschel-ma.github.io/post/selenuim%E7%AE%80%E5%8D%95%E7%88%AC%E5%8F%96%E6%8B%89%E5%8B%BE/</loc>
+    <lastmod>2019-07-21T15:35:27+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://herschel-ma.github.io/tags/django/</loc>
+    <lastmod>2019-07-21T15:35:27+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://herschel-ma.github.io/post/first-use-hugo/</loc>
+    <lastmod>2019-07-21T14:29:43+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://herschel-ma.github.io/post/xxx/</loc>
+    <lastmod>2019-07-21T14:00:31+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://herschel-ma.github.io/post/test/</loc>
+    <lastmod>2019-07-21T13:58:51+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
 </urlset>

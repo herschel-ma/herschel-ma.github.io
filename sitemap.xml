@@ -8,12 +8,6 @@
   </url>
   
   <url>
-    <loc>https://herschel-ma.github.io/tags/django/</loc>
-    <lastmod>2019-07-21T15:35:27+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://herschel-ma.github.io/</loc>
     <lastmod>2019-07-21T15:35:27+08:00</lastmod>
     <priority>0</priority>
@@ -34,6 +28,12 @@
   
   <url>
     <loc>https://herschel-ma.github.io/tags/</loc>
+    <lastmod>2019-07-21T15:35:27+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://herschel-ma.github.io/tags/django/</loc>
     <lastmod>2019-07-21T15:35:27+08:00</lastmod>
     <priority>0</priority>
   </url>

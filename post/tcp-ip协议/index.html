@@ -51,7 +51,7 @@
 
 <meta itemprop="datePublished" content="2019-07-23T09:36:06&#43;08:00" />
 <meta itemprop="dateModified" content="2019-07-23T09:36:06&#43;08:00" />
-<meta itemprop="wordCount" content="771">
+<meta itemprop="wordCount" content="770">
 
 
 
@@ -128,7 +128,7 @@
         <div class="post-category">
             <a href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE/"> 计算机网络协议 </a>
             </div>
-          <span class="more-meta"> 约 771 字 </span>
+          <span class="more-meta"> 约 770 字 </span>
           <span class="more-meta"> 预计阅读 2 分钟 </span>
         <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次阅读 </span>
       </div>
@@ -149,49 +149,47 @@
 
 <p>http 通信机制是在一次完整的HTTP通信过程中，web浏览器与web服务器之间将完成下列7个步骤：</p>
 
-<ol>
+<ul>
 <li>建立TCP连接</li>
-</ol>
+</ul>
 
 <p>web浏览器与web服务器首先要通过网络与web服务器建立连接，该连接是通过tcp协议来完成的，该协议与IP协议共同构建Internet，即著名的TCP/IP协议族，因此Internet又称作TCP/IP网络。HTTP是比tcp更高层次的应用层协议，规定只有底层协议建立之后才能建立更高协议的连接，因此，首先要建立TCP连接，TCP连接的端口一般是80。</p>
 
-<ol>
+<ul>
 <li>web浏览器向web服务器发送请求信息</li>
-</ol>
+</ul>
 
 <p>一旦建立了tcp连接，浏览器就会向服务器发送请求信息，例如：<code>GET/sample/hello.js/HTTP/1.1</code></p>
 
-<ol>
+<ul>
 <li>web浏览器向web服务器发送请求头信息。</li>
-</ol>
+</ul>
 
 <p>浏览器向服务器发送请求信息之后，一般还要以头信息的方式向浏览器发送一些别的信息，之后浏览器会发送以空白行来告诉服务器发送信息完毕。</p>
 
-<ol>
+<ul>
 <li>服务器返回应答</li>
-</ol>
+</ul>
 
 <p>客户机向服务器发出请求之后，服务器会向客户机发出应答，<code>HTTP/1.1 200 OK</code>, 应答的第一部分是协议的版本号以及应答状态码。</p>
 
-<ol>
+<ul>
 <li>web服务器发送应答头信息</li>
-</ol>
+</ul>
 
 <p>正如客户端会随同请求发送关于自身的信息一样，服务器也会随同应答发送自身的数据以及正被请求的文档。</p>
 
-<ol>
+<ul>
 <li>web服务器向浏览器发送数据</li>
-</ol>
+</ul>
 
 <p>web服务器向浏览器发送了头信息之后，会发送一个空白行表示头信息的发送结束，接着他就以 Content-Type 应答头信息所描述的数据格式向浏览器发送数据。</p>
 
-<ol>
+<ul>
 <li>web服务器关闭TCP连接</li>
-</ol>
+</ul>
 
 <p>一般情况下，一旦web服务器向浏览器发送了请求的数据，就要关闭TCP连接，然后如果浏览器或者服务器的头信息中包含了Connection:keep-alive，TCP连接在发送之后保持连接状态，于是浏览器可以通过相同的连接发送请求，保持连接节省了每个连接建立请求的时间，还节省了网络带宽。</p>
-
-<p>​</p>
     </div>
 
     

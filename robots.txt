@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://herschel-ma.github.ioo/sitemap.xml
+Sitemap: https://herschel-ma.github.io/sitemap.xml

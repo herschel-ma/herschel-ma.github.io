@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Insert Sort - Pythonic think and to do</title>
+  <title>等价米诺骨牌 - Pythonic think and to do</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="herschel" /><meta name="description" content="" /><meta name="keywords" content="Hugo, theme, even" />
+<meta name="author" content="herschel" /><meta name="description" content="等价米诺骨牌58ms解题步骤" /><meta name="keywords" content="Hugo, theme, even" />
 
 
 
@@ -26,7 +26,7 @@
 <meta name="generator" content="Hugo 0.55.6 with even 4.0.0" />
 
 
-<link rel="canonical" href="https://herschel-ma.github.io/post/insert-sort/" />
+<link rel="canonical" href="https://herschel-ma.github.io/post/%E7%AD%89%E4%BB%B7%E7%B1%B3%E8%AF%BA%E9%AA%A8%E7%89%8C/" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -38,27 +38,27 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
-<meta property="og:title" content="Insert Sort" />
-<meta property="og:description" content="" />
+<meta property="og:title" content="等价米诺骨牌" />
+<meta property="og:description" content="等价米诺骨牌58ms解题步骤" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://herschel-ma.github.io/post/insert-sort/" />
-<meta property="article:published_time" content="2019-07-23T18:25:42&#43;08:00"/>
-<meta property="article:modified_time" content="2019-07-23T18:25:42&#43;08:00"/>
+<meta property="og:url" content="https://herschel-ma.github.io/post/%E7%AD%89%E4%BB%B7%E7%B1%B3%E8%AF%BA%E9%AA%A8%E7%89%8C/" />
+<meta property="article:published_time" content="2019-07-25T19:22:16&#43;08:00"/>
+<meta property="article:modified_time" content="2019-07-25T19:22:16&#43;08:00"/>
 
-<meta itemprop="name" content="Insert Sort">
-<meta itemprop="description" content="">
+<meta itemprop="name" content="等价米诺骨牌">
+<meta itemprop="description" content="等价米诺骨牌58ms解题步骤">
 
 
-<meta itemprop="datePublished" content="2019-07-23T18:25:42&#43;08:00" />
-<meta itemprop="dateModified" content="2019-07-23T18:25:42&#43;08:00" />
-<meta itemprop="wordCount" content="443">
+<meta itemprop="datePublished" content="2019-07-25T19:22:16&#43;08:00" />
+<meta itemprop="dateModified" content="2019-07-25T19:22:16&#43;08:00" />
+<meta itemprop="wordCount" content="293">
 
 
 
 <meta itemprop="keywords" content="算法," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Insert Sort"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="等价米诺骨牌"/>
+<meta name="twitter:description" content="等价米诺骨牌58ms解题步骤"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -121,14 +121,14 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">Insert Sort</h1>
+      <h1 class="post-title">等价米诺骨牌</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2019-07-23 </span>
+        <span class="post-time"> 2019-07-25 </span>
         <div class="post-category">
             <a href="/categories/python/"> python </a>
             </div>
-          <span class="more-meta"> 约 443 字 </span>
+          <span class="more-meta"> 约 293 字 </span>
           <span class="more-meta"> 预计阅读 1 分钟 </span>
         <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次阅读 </span>
       </div>
@@ -141,28 +141,62 @@
 <ul>
 <li>
 <ul>
-<li><a href="#算法原理">算法原理</a></li>
-<li><a href="#编码实现">编码实现</a>
+<li><a href="#1128-leecode">1128.leecode</a>
 <ul>
-<li><a href="#格式一">格式一：</a></li>
+<li><a href="#问题描述">问题描述</a></li>
+<li><a href="#示例">示例</a></li>
+<li><a href="#提示">提示</a></li>
+<li><a href="#python3实现">python3实现</a></li>
 </ul></li>
-<li><a href="#格式二">格式二</a></li>
-<li><a href="#实现解释">实现解释</a></li>
 </ul></li>
 </ul>
 </nav>
   </div>
 </div>
     <div class="post-content">
-      <h2 id="算法原理">算法原理</h2>
+      <h2 id="1128-leecode">1128.leecode</h2>
+
+<h3 id="问题描述">问题描述</h3>
 
 <ul>
-<li>插入算法的思想是：将数据分为两部分，一部分已经排序，一部分未排序，遍历未排序的部分i,放在已排序的结尾，如果比已排序最后一个大，前移一位，直到位于符合的位置。</li>
+<li>给你一个由一些多米诺骨牌组成的列表 dominoes。</li>
 </ul>
 
-<h2 id="编码实现">编码实现</h2>
+<p>如果其中某一张多米诺骨牌可以通过旋转 0 度或 180 度得到另一张多米诺骨牌，我们就认为这两张牌是等价的。</p>
 
-<h3 id="格式一">格式一：</h3>
+<p>形式上，<code>dominoes[i] = [a, b]</code> 和<code>dominoes[j] = [c, d]</code> 等价的前提是 <code>a==c</code> 且 <code>b==d</code>，或是 <code>a==d</code>且<code> b==c</code>。</p>
+
+<p>在 <code>0 &lt;= i &lt; j &lt; dominoes.length</code> 的前提下，找出满足 <code>dominoes[i]</code>和 <code>dominoes[j]</code> 等价的骨牌对 <code>(i, j)</code> 的数量。</p>
+
+<h3 id="示例">示例</h3>
+
+<ul>
+<li>输入：</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">  <span class="nv">dominoes</span> <span class="o">=</span> <span class="o">[[</span><span class="m">1</span>,2<span class="o">]</span>,<span class="o">[</span><span class="m">2</span>,1<span class="o">]</span>,<span class="o">[</span><span class="m">3</span>,4<span class="o">]</span>,<span class="o">[</span><span class="m">5</span>,6<span class="o">]]</span></code></pre></td></tr></table>
+</div>
+</div>
+<ul>
+<li>输出：<code>1</code></li>
+</ul>
+
+<h3 id="提示">提示</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-py" data-lang="py"><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-py" data-lang="py">  <span class="mi">1</span> <span class="o">&lt;=</span> <span class="n">dominoes</span><span class="o">.</span><span class="n">length</span> <span class="o">&lt;=</span> <span class="mi">40000</span>
+  <span class="mi">1</span> <span class="o">&lt;=</span> <span class="n">dominoesi</span> <span class="o">&lt;=</span> <span class="mi">9</span></code></pre></td></tr></table>
+</div>
+</div>
+<h3 id="python3实现">python3实现</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code class="language-py" data-lang="py"><span class="lnt"> 1
@@ -183,67 +217,34 @@
 </span><span class="lnt">16
 </span><span class="lnt">17
 </span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-py" data-lang="py"><span class="k">def</span> <span class="nf">insert_sort</span><span class="p">(</span><span class="n">alist</span><span class="p">):</span>
-    <span class="s2">&#34;&#34;&#34;插入排序&#34;&#34;&#34;</span>
-    <span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">alist</span><span class="p">)</span>
-    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">n</span><span class="p">):</span>
-        <span class="n">i</span> <span class="o">=</span> <span class="n">j</span>
-        <span class="k">while</span> <span class="n">i</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
-            <span class="k">if</span> <span class="n">alist</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">alist</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">]:</span>
-                <span class="n">alist</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">alist</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">alist</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span> <span class="n">alist</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
-                <span class="n">i</span> <span class="o">-=</span> <span class="mi">1</span>
+<pre class="chroma"><code class="language-py" data-lang="py"><span class="k">class</span> <span class="nc">Solution</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">numEquivDominoPairs</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">dominoes</span><span class="p">):</span>
+        <span class="n">res</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="n">dic</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">dominoes</span><span class="p">)):</span>
+            <span class="k">if</span> <span class="nb">str</span><span class="p">(</span><span class="n">dominoes</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="ow">in</span> <span class="n">dic</span><span class="p">:</span>
+                <span class="n">dic</span><span class="p">[</span><span class="nb">str</span><span class="p">(</span><span class="n">dominoes</span><span class="p">[</span><span class="n">i</span><span class="p">])]</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="k">elif</span> <span class="nb">str</span><span class="p">(</span><span class="n">dominoes</span><span class="p">[</span><span class="n">i</span><span class="p">][::</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span> <span class="ow">in</span> <span class="n">dic</span><span class="p">:</span>
+                <span class="n">dic</span><span class="p">[</span><span class="nb">str</span><span class="p">(</span><span class="n">dominoes</span><span class="p">[</span><span class="n">i</span><span class="p">][::</span><span class="o">-</span><span class="mi">1</span><span class="p">])]</span> <span class="o">+=</span> <span class="mi">1</span>
             <span class="k">else</span><span class="p">:</span>
-                <span class="k">break</span>
+                <span class="n">dic</span><span class="p">[</span><span class="nb">str</span><span class="p">(</span><span class="n">dominoes</span><span class="p">[</span><span class="n">i</span><span class="p">])]</span> <span class="o">=</span> <span class="mi">1</span>
+        <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">dic</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="k">if</span> <span class="n">v</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+                <span class="n">res</span> <span class="o">+=</span> <span class="n">v</span><span class="o">*</span><span class="p">(</span><span class="n">v</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span><span class="o">//</span><span class="mi">2</span>
+        <span class="k">print</span><span class="p">(</span><span class="n">res</span><span class="p">)</span> 
 
 
 <span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&#34;__main__&#34;</span><span class="p">:</span>
-    <span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="mi">93</span><span class="p">,</span> <span class="mi">54</span><span class="p">,</span> <span class="mi">77</span><span class="p">,</span> <span class="mi">31</span><span class="p">,</span> <span class="mi">55</span><span class="p">,</span> <span class="mi">44</span><span class="p">,</span> <span class="mi">226</span><span class="p">,</span> <span class="mi">55</span><span class="p">]</span>
-    <span class="k">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
-    <span class="n">insert_sort</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
-    <span class="k">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span></code></pre></td></tr></table>
+    <span class="n">dominoes</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">],[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">],[</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">],[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">],[</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">],[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">],[</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">]]</span>
+    <span class="n">s</span> <span class="o">=</span> <span class="n">Solution</span><span class="p">()</span>
+    <span class="n">s</span><span class="o">.</span><span class="n">numEquivDominoPairs</span><span class="p">(</span><span class="n">dominoes</span><span class="p">)</span></code></pre></td></tr></table>
 </div>
 </div>
-<h2 id="格式二">格式二</h2>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-py" data-lang="py"><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-py" data-lang="py"><span class="k">def</span> <span class="nf">insert_sort</span><span class="p">(</span><span class="n">alist</span><span class="p">):</span>
-    <span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">alist</span><span class="p">)</span>
-    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">n</span><span class="p">):</span>
-        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">j</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">):</span>
-            <span class="k">if</span> <span class="n">alist</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">alist</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">]:</span>
-                <span class="n">alist</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">alist</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">alist</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span> <span class="n">alist</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
-
-
-<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&#34;__main__&#34;</span><span class="p">:</span>
-    <span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="mi">93</span><span class="p">,</span> <span class="mi">54</span><span class="p">,</span> <span class="mi">77</span><span class="p">,</span> <span class="mi">31</span><span class="p">,</span> <span class="mi">55</span><span class="p">,</span> <span class="mi">44</span><span class="p">,</span> <span class="mi">226</span><span class="p">,</span> <span class="mi">55</span><span class="p">]</span>
-    <span class="k">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
-    <span class="n">insert_sort</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
-    <span class="k">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span></code></pre></td></tr></table>
-</div>
-</div>
-<h2 id="实现解释">实现解释</h2>
-
-<ul>
-<li>其实这个算法的核心部分只是比较的部分而已，注意理解过程，分为两部分，第一部分是已排序序列，第二部分是未排序序列，从未排序的部分的索引循环遍历，与前面一个值比较，比他大不管（升序是这样），比他小则交换值的位置，注意这个比较过程是在循环中进行的，每一次从未排序的序列中遍历出来放在前面排序的序列尾部，再与前面的比较，所以索引每次减一。</li>
-<li>所以内部循环就控制上面说的减一，外部循环控制遍历。</li>
-</ul>
     </div>
 
     
@@ -252,13 +253,9 @@
           <a href="/tags/%E7%AE%97%E6%B3%95/">算法</a>
           </div>
       <nav class="post-nav">
-        <a class="prev" href="/post/%E7%AD%89%E4%BB%B7%E7%B1%B3%E8%AF%BA%E9%AA%A8%E7%89%8C/">
-            <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">等价米诺骨牌</span>
-            <span class="prev-text nav-mobile">上一篇</span>
-          </a>
-        <a class="next" href="/post/select-sort/">
-            <span class="next-text nav-default">Select Sort</span>
+        
+        <a class="next" href="/post/insert-sort/">
+            <span class="next-text nav-default">Insert Sort</span>
             <span class="next-text nav-mobile">下一篇</span>
             <i class="iconfont icon-right"></i>
           </a>

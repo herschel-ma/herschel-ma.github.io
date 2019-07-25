@@ -6,10 +6,19 @@
     <description>Recent content in python on Pythonic think and to do</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 23 Jul 2019 18:25:42 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jul 2019 19:22:16 +0800</lastBuildDate>
     
 	<atom:link href="https://herschel-ma.github.io/categories/python/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>等价米诺骨牌</title>
+      <link>https://herschel-ma.github.io/post/%E7%AD%89%E4%BB%B7%E7%B1%B3%E8%AF%BA%E9%AA%A8%E7%89%8C/</link>
+      <pubDate>Thu, 25 Jul 2019 19:22:16 +0800</pubDate>
+      
+      <guid>https://herschel-ma.github.io/post/%E7%AD%89%E4%BB%B7%E7%B1%B3%E8%AF%BA%E9%AA%A8%E7%89%8C/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Insert Sort</title>

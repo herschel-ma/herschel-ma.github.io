@@ -6,10 +6,19 @@
     <description>Recent content on Pythonic think and to do</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 28 Jul 2019 12:11:32 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 10 Aug 2019 18:44:58 +0800</lastBuildDate>
     
 	<atom:link href="https://herschel-ma.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>记一次面试题</title>
+      <link>https://herschel-ma.github.io/post/%E8%AE%B0%E4%B8%80%E6%AC%A1%E9%9D%A2%E8%AF%95%E9%A2%98/</link>
+      <pubDate>Sat, 10 Aug 2019 18:44:58 +0800</pubDate>
+      
+      <guid>https://herschel-ma.github.io/post/%E8%AE%B0%E4%B8%80%E6%AC%A1%E9%9D%A2%E8%AF%95%E9%A2%98/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Shell Sort</title>

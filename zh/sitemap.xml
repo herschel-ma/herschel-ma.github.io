@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://herschel-ma.github.io/showcase/blogs/dajun_blog/</loc>
+    <lastmod>2021-03-14T18:08:38+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/showcase/awesomegolang/7daysgolangseries/</loc>
+    <lastmod>2021-03-14T18:48:38+15:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/showcase/hugo/hugo-theme-zzo/</loc>
+    <lastmod>2020-01-19T21:13:42+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://herschel-ma.github.io/en/showcase/hugo/hugo-theme-zzo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://herschel-ma.github.io/showcase/hugo/hugo-theme-zzo/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/showcase/hugo/hugo-theme-zdoc/</loc>
+    <lastmod>2020-01-19T21:13:42+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://herschel-ma.github.io/en/showcase/hugo/hugo-theme-zdoc/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://herschel-ma.github.io/showcase/hugo/hugo-theme-zdoc/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/</loc>
+    <lastmod>2021-03-31T21:20:51+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://herschel-ma.github.io/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://herschel-ma.github.io/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/categories/</loc>
+    <lastmod>2021-03-31T21:20:51+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://herschel-ma.github.io/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://herschel-ma.github.io/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/categories/java/</loc>
+    <lastmod>2021-03-31T21:20:51+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/tags/jvm-java/</loc>
+    <lastmod>2021-03-31T21:20:51+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/posts/minorgc_majorgc_fullgc/</loc>
+    <lastmod>2021-03-31T21:20:51+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/posts/</loc>
+    <lastmod>2021-03-31T21:20:51+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://herschel-ma.github.io/en/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://herschel-ma.github.io/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/tags/</loc>
+    <lastmod>2021-03-31T21:20:51+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://herschel-ma.github.io/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://herschel-ma.github.io/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/tags/java/</loc>
+    <lastmod>2021-03-16T21:20:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/tags/jvm/</loc>
+    <lastmod>2021-03-16T21:20:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/posts/%E5%A0%86%E7%A9%BA%E9%97%B4%E7%9A%84%E6%A6%82%E8%BF%B0/</loc>
+    <lastmod>2021-03-16T21:20:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/showcase/blogs/</loc>
+    <lastmod>2021-03-14T18:08:38+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/showcase/awesomegolang/</loc>
+    <lastmod>2021-03-14T18:48:38+15:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/posts/%E6%96%B9%E6%B3%95%E8%BF%94%E5%9B%9E%E5%9C%B0%E5%9D%80/</loc>
+    <lastmod>2021-03-13T12:09:38+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/tags/python/</loc>
+    <lastmod>2021-02-22T22:02:02+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/categories/python/</loc>
+    <lastmod>2021-02-22T22:02:02+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/posts/%E5%8A%A8%E6%80%81%E5%AF%BC%E5%8C%85%E5%92%8C%E5%B7%B2%E5%AF%BC%E5%85%A5%E7%9A%84%E6%A8%A1%E5%9D%97/</loc>
+    <lastmod>2021-02-22T22:02:02+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/posts/4%E7%A7%8D%E6%96%B9%E6%B3%95%E8%B0%83%E7%94%A8%E6%8C%87%E4%BB%A4/</loc>
+    <lastmod>2021-02-16T18:10:54+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/posts/%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%A0%88/</loc>
+    <lastmod>2021-02-13T22:43:08+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/posts/%E7%A8%8B%E5%BA%8F%E8%AE%A1%E6%95%B0%E5%99%A8/</loc>
+    <lastmod>2021-02-13T16:28:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/posts/%E8%BF%90%E8%A1%8C%E6%97%B6%E6%95%B0%E6%8D%AE%E5%8C%BA%E6%A6%82%E8%BF%B0%E5%8F%8A%E7%BA%BF%E7%A8%8B/</loc>
+    <lastmod>2021-02-13T15:39:35+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/posts/%E5%85%B3%E4%BA%8Eclassloader/</loc>
+    <lastmod>2021-02-13T10:39:35+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/posts/%E7%B1%BB%E5%8A%A0%E8%BD%BD%E5%AD%90%E7%B3%BB%E7%BB%9F/</loc>
+    <lastmod>2021-02-12T11:07:12+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/posts/%E8%AE%A4%E8%AF%86jvm/</loc>
+    <lastmod>2021-02-11T23:56:13+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/tags/typescript/</loc>
+    <lastmod>2021-02-08T21:36:26+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/categories/typescript/</loc>
+    <lastmod>2021-02-08T21:36:26+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/posts/%E8%AE%A4%E8%AF%86typescript/</loc>
+    <lastmod>2021-02-08T21:36:26+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/tags/c&#43;&#43;/</loc>
+    <lastmod>2021-02-06T15:53:05+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/posts/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/</loc>
+    <lastmod>2021-02-06T15:53:05+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/about/</loc>
+    <lastmod>2021-02-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://herschel-ma.github.io/en/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://herschel-ma.github.io/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/publication/article/</loc>
+    <lastmod>2020-03-05T14:08:48+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://herschel-ma.github.io/en/publication/article/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://herschel-ma.github.io/publication/article/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/publication/book/</loc>
+    <lastmod>2020-03-05T14:08:48+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://herschel-ma.github.io/en/publication/book/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://herschel-ma.github.io/publication/book/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/publication/misc/</loc>
+    <lastmod>2020-03-05T14:08:48+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://herschel-ma.github.io/en/publication/misc/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://herschel-ma.github.io/publication/misc/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/publication/</loc>
+    <lastmod>2020-03-05T14:08:48+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://herschel-ma.github.io/en/publication/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://herschel-ma.github.io/publication/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/showcase/hugo/</loc>
+    <lastmod>2020-01-19T21:04:11+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://herschel-ma.github.io/en/showcase/hugo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://herschel-ma.github.io/showcase/hugo/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/showcase/</loc>
+    <lastmod>2020-01-19T15:43:38+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://herschel-ma.github.io/en/showcase/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://herschel-ma.github.io/showcase/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/gallery/cartoon/</loc>
+    <lastmod>2019-10-31T10:20:16+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://herschel-ma.github.io/en/gallery/cartoon/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://herschel-ma.github.io/gallery/cartoon/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/gallery/</loc>
+    <lastmod>2019-10-31T10:20:16+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://herschel-ma.github.io/en/gallery/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://herschel-ma.github.io/gallery/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/gallery/photo/</loc>
+    <lastmod>2019-10-31T10:20:16+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://herschel-ma.github.io/en/gallery/photo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://herschel-ma.github.io/gallery/photo/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/presentation/dir/fourth/</loc>
+    <lastmod>2019-10-30T20:48:10+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://herschel-ma.github.io/en/presentation/dir/fourth/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://herschel-ma.github.io/presentation/dir/fourth/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/presentation/</loc>
+    <lastmod>2019-10-30T20:48:10+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://herschel-ma.github.io/en/presentation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://herschel-ma.github.io/presentation/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/presentation/third/</loc>
+    <lastmod>2019-10-30T20:46:30+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://herschel-ma.github.io/en/presentation/third/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://herschel-ma.github.io/presentation/third/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/presentation/second/</loc>
+    <lastmod>2019-10-30T20:45:24+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://herschel-ma.github.io/en/presentation/second/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://herschel-ma.github.io/presentation/second/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/presentation/first/</loc>
+    <lastmod>2019-10-30T19:45:20+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://herschel-ma.github.io/en/presentation/first/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://herschel-ma.github.io/presentation/first/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/archive/</loc>
+    <lastmod>2019-10-19T11:44:14+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://herschel-ma.github.io/en/archive/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://herschel-ma.github.io/archive/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/publication/article/article_any_folder_name_1/</loc>
+    <lastmod>2018-06-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://herschel-ma.github.io/en/publication/article/article_any_folder_name_1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://herschel-ma.github.io/publication/article/article_any_folder_name_1/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/publication/book/book_any_folder_name_1/</loc>
+    <lastmod>2017-06-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://herschel-ma.github.io/en/publication/book/book_any_folder_name_1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://herschel-ma.github.io/publication/book/book_any_folder_name_1/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/publication/misc/misc_any_folder_name_1/</loc>
+    <lastmod>2016-11-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://herschel-ma.github.io/en/publication/misc/misc_any_folder_name_1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://herschel-ma.github.io/publication/misc/misc_any_folder_name_1/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://herschel-ma.github.io/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://herschel-ma.github.io/en/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://herschel-ma.github.io/series/"
+                />
+  </url>
+  
+</urlset>

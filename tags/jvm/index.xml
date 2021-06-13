@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>JVM on 积少成多</title>
+    <link>http://herschel-ma.github.io/tags/jvm/</link>
+    <description>Recent content in JVM on 积少成多</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <managingEditor>herschelma666@gmail.com (Herschel)</managingEditor>
+    <webMaster>herschelma666@gmail.com (Herschel)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Tue, 16 Mar 2021 21:20:49 +0800</lastBuildDate>
+    
+        <atom:link href="http://herschel-ma.github.io/tags/jvm/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>堆空间的概述</title>
+        <link>http://herschel-ma.github.io/posts/%E5%A0%86%E7%A9%BA%E9%97%B4%E7%9A%84%E6%A6%82%E8%BF%B0/</link>
+        <pubDate>Tue, 16 Mar 2021 21:20:49 +0800</pubDate>
+        <author>herschelma666@gmail.com (Herschel)</author>
+        <atom:modified>Tue, 16 Mar 2021 21:20:49 +0800</atom:modified>
+        <guid>http://herschel-ma.github.io/posts/%E5%A0%86%E7%A9%BA%E9%97%B4%E7%9A%84%E6%A6%82%E8%BF%B0/</guid>
+        <description>堆的核心概述 一个 JVM 实例只存在一个堆内存，堆也是 Java 内存管理的核心区域。 Java 堆区在 JVM 启动的时候即被创建，其空间大小也就确定了。是 JVM 管理的最大一块内</description>
+        
+        <dc:creator>Herschel</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>JVM</category>
+            
+          
+            
+              <category>java</category>
+            
+          
+        
+        
+          
+            
+              <category>java</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>方法返回地址</title>
+        <link>http://herschel-ma.github.io/posts/%E6%96%B9%E6%B3%95%E8%BF%94%E5%9B%9E%E5%9C%B0%E5%9D%80/</link>
+        <pubDate>Sat, 13 Mar 2021 12:09:38 +0800</pubDate>
+        <author>herschelma666@gmail.com (Herschel)</author>
+        <atom:modified>Sat, 13 Mar 2021 12:09:38 +0800</atom:modified>
+        <guid>http://herschel-ma.github.io/posts/%E6%96%B9%E6%B3%95%E8%BF%94%E5%9B%9E%E5%9C%B0%E5%9D%80/</guid>
+        <description>方法返回地址 存放调用该方法的 pc 寄存器的值。 一个方法的结束，有两种方式： 正常执行完成 出现未处理的异常，非正常退出 无论通过哪种方式退出，在方法退</description>
+        
+        <dc:creator>Herschel</dc:creator>
+        <media:content url="http://herschel-ma.github.ioimages/JVM/%e6%96%b9%e6%b3%95%e8%bf%94%e5%9b%9e%e5%9c%b0%e5%9d%80.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Java</category>
+            
+          
+            
+              <category>JVM</category>
+            
+          
+        
+        
+          
+            
+              <category>Java</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>4种方法调用指令</title>
+        <link>http://herschel-ma.github.io/posts/4%E7%A7%8D%E6%96%B9%E6%B3%95%E8%B0%83%E7%94%A8%E6%8C%87%E4%BB%A4/</link>
+        <pubDate>Tue, 16 Feb 2021 18:10:54 +0800</pubDate>
+        <author>herschelma666@gmail.com (Herschel)</author>
+        <atom:modified>Tue, 16 Feb 2021 18:10:54 +0800</atom:modified>
+        <guid>http://herschel-ma.github.io/posts/4%E7%A7%8D%E6%96%B9%E6%B3%95%E8%B0%83%E7%94%A8%E6%8C%87%E4%BB%A4/</guid>
+        <description>方法的调用：虚方法与非虚方法 4种方法调用指令 虚拟机中提供了以下几条方法调用指令： 普通调用指令： invokestatic: 调用静态方法，解析阶段唯一确定唯一方法版本 invokespecial:</description>
+        
+        <dc:creator>Herschel</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>JVM</category>
+            
+          
+            
+              <category>Java</category>
+            
+          
+        
+        
+          
+            
+              <category>Java</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>虚拟机栈</title>
+        <link>http://herschel-ma.github.io/posts/%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%A0%88/</link>
+        <pubDate>Sat, 13 Feb 2021 22:43:08 +0800</pubDate>
+        <author>herschelma666@gmail.com (Herschel)</author>
+        <atom:modified>Sat, 13 Feb 2021 22:43:08 +0800</atom:modified>
+        <guid>http://herschel-ma.github.io/posts/%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%A0%88/</guid>
+        <description>虚拟机栈概述 由于跨平台性的设计，Java 的指令都是根据栈来设计的。不同平台 CPU 架构不同，所有不能设计为基于寄存器的。 优点是跨平台，指令集小，编</description>
+        
+        <dc:creator>Herschel</dc:creator>
+        <media:content url="http://herschel-ma.github.ioimages/JVM/%e6%a0%88%e8%bf%90%e8%a1%8c%e5%8e%9f%e7%90%86.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>JVM</category>
+            
+          
+            
+              <category>Java</category>
+            
+          
+        
+        
+          
+            
+              <category>Java</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>程序计数器</title>
+        <link>http://herschel-ma.github.io/posts/%E7%A8%8B%E5%BA%8F%E8%AE%A1%E6%95%B0%E5%99%A8/</link>
+        <pubDate>Sat, 13 Feb 2021 16:28:00 +0800</pubDate>
+        <author>herschelma666@gmail.com (Herschel)</author>
+        <atom:modified>Sat, 13 Feb 2021 16:28:00 +0800</atom:modified>
+        <guid>http://herschel-ma.github.io/posts/%E7%A8%8B%E5%BA%8F%E8%AE%A1%E6%95%B0%E5%99%A8/</guid>
+        <description>PC Register 介绍 JVM 中的程序计数寄存器（Program Counter Register)中，Register 的命名源于 cpu 的寄存器，寄存器存储指令相关的现场信息。CP</description>
+        
+        <dc:creator>Herschel</dc:creator>
+        <media:content url="http://herschel-ma.github.ioimages/JVM/%e7%a8%8b%e5%ba%8f%e8%ae%a1%e6%95%b0%e5%99%a8.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>JVM</category>
+            
+          
+            
+              <category>Java</category>
+            
+          
+        
+        
+          
+            
+              <category>Java</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>运行时数据区概述及线程</title>
+        <link>http://herschel-ma.github.io/posts/%E8%BF%90%E8%A1%8C%E6%97%B6%E6%95%B0%E6%8D%AE%E5%8C%BA%E6%A6%82%E8%BF%B0%E5%8F%8A%E7%BA%BF%E7%A8%8B/</link>
+        <pubDate>Sat, 13 Feb 2021 15:39:35 +0800</pubDate>
+        <author>herschelma666@gmail.com (Herschel)</author>
+        <atom:modified>Sat, 13 Feb 2021 15:39:35 +0800</atom:modified>
+        <guid>http://herschel-ma.github.io/posts/%E8%BF%90%E8%A1%8C%E6%97%B6%E6%95%B0%E6%8D%AE%E5%8C%BA%E6%A6%82%E8%BF%B0%E5%8F%8A%E7%BA%BF%E7%A8%8B/</guid>
+        <description>运行时数据区内部结构 Java虚拟机定义了若干种程序运行期间会使用到的运行时数据区，其中有一些会随着虚拟机的启动而创建，随着虚拟机退出而销毁(</description>
+        
+        <dc:creator>Herschel</dc:creator>
+        <media:content url="http://herschel-ma.github.ioimages/JVM/%e8%bf%90%e8%a1%8c%e6%97%b6%e6%95%b0%e6%8d%ae%e5%8c%ba.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>JVM</category>
+            
+          
+            
+              <category>Java</category>
+            
+          
+        
+        
+          
+            
+              <category>Java</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>关于classLoader</title>
+        <link>http://herschel-ma.github.io/posts/%E5%85%B3%E4%BA%8Eclassloader/</link>
+        <pubDate>Sat, 13 Feb 2021 10:39:35 +0800</pubDate>
+        <author>herschelma666@gmail.com (Herschel)</author>
+        <atom:modified>Sat, 13 Feb 2021 10:39:35 +0800</atom:modified>
+        <guid>http://herschel-ma.github.io/posts/%E5%85%B3%E4%BA%8Eclassloader/</guid>
+        <description>关于classLoader ClassLoader 类，它是一个抽象类，其后所有的类加载器都继承自 ClassLoader (不包括启动类加载器)。 概览 方法名称 描述 getParent() 返回该类加载器的超类加</description>
+        
+        <dc:creator>Herschel</dc:creator>
+        <media:content url="http://herschel-ma.github.ioimages/JVM/%e5%8f%8c%e4%ba%b2%e5%a7%94%e6%b4%be%e6%9c%ba%e5%88%b6.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>JVM</category>
+            
+          
+            
+              <category>Java</category>
+            
+          
+        
+        
+          
+            
+              <category>Java</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>类加载子系统</title>
+        <link>http://herschel-ma.github.io/posts/%E7%B1%BB%E5%8A%A0%E8%BD%BD%E5%AD%90%E7%B3%BB%E7%BB%9F/</link>
+        <pubDate>Fri, 12 Feb 2021 11:07:12 +0800</pubDate>
+        <author>herschelma666@gmail.com (Herschel)</author>
+        <atom:modified>Fri, 12 Feb 2021 11:07:12 +0800</atom:modified>
+        <guid>http://herschel-ma.github.io/posts/%E7%B1%BB%E5%8A%A0%E8%BD%BD%E5%AD%90%E7%B3%BB%E7%BB%9F/</guid>
+        <description>类加载器与类的加载过程 加载流程 字节码文件 类加载子系统 字节码文件 加载阶段 链接阶段 初始化阶段 字节码文件 引导类加载器 验证 初始化 字节码文件 扩展类加载</description>
+        
+        <dc:creator>Herschel</dc:creator>
+        <media:content url="http://herschel-ma.github.ioimages/JVM/ClassLoader.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>JVM</category>
+            
+          
+            
+              <category>Java</category>
+            
+          
+        
+        
+          
+            
+              <category>Java</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>认识JVM</title>
+        <link>http://herschel-ma.github.io/posts/%E8%AE%A4%E8%AF%86jvm/</link>
+        <pubDate>Thu, 11 Feb 2021 23:56:13 +0800</pubDate>
+        <author>herschelma666@gmail.com (Herschel)</author>
+        <atom:modified>Thu, 11 Feb 2021 23:56:13 +0800</atom:modified>
+        <guid>http://herschel-ma.github.io/posts/%E8%AE%A4%E8%AF%86jvm/</guid>
+        <description>JVM的整体结构 HotSpot VM是目前市面上高性能虚拟机的代表作之一。 它采用解释器与即时编译器并存的架构。 在今天，Java程序的运行性能早已脱胎换骨，</description>
+        
+        <dc:creator>Herschel</dc:creator>
+        <media:content url="http://herschel-ma.github.ioimages/JVM/JVM_STRUCTURE.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>JVM</category>
+            
+          
+            
+              <category>Java</category>
+            
+          
+        
+        
+          
+            
+              <category>Java</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

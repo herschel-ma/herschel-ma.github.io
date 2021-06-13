@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>awesome golang on 积少成多</title>
+    <link>http://herschel-ma.github.io/showcase/awesomegolang/</link>
+    <description>Recent content in awesome golang on 积少成多</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <managingEditor>herschelma666@gmail.com (Herschel)</managingEditor>
+    <webMaster>herschelma666@gmail.com (Herschel)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sun, 14 Mar 2021 18:48:38 +1500</lastBuildDate>
+    
+        <atom:link href="http://herschel-ma.github.io/showcase/awesomegolang/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>七天用Go从零实现系列</title>
+        <link>http://herschel-ma.github.io/showcase/awesomegolang/7daysgolangseries/</link>
+        <pubDate>Sun, 14 Mar 2021 18:48:38 +1500</pubDate>
+        <author>herschelma666@gmail.com (Herschel)</author>
+        <atom:modified>Sun, 14 Mar 2021 18:48:38 +1500</atom:modified>
+        <guid>http://herschel-ma.github.io/showcase/awesomegolang/7daysgolangseries/</guid>
+        <description></description>
+        
+        <dc:creator>Herschel</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>python on 积少成多</title>
+    <link>http://herschel-ma.github.io/categories/python/</link>
+    <description>Recent content in python on 积少成多</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <managingEditor>herschelma666@gmail.com (Herschel)</managingEditor>
+    <webMaster>herschelma666@gmail.com (Herschel)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Mon, 22 Feb 2021 22:02:02 +0800</lastBuildDate>
+    
+        <atom:link href="http://herschel-ma.github.io/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>动态导包和已导入的模块</title>
+        <link>http://herschel-ma.github.io/posts/%E5%8A%A8%E6%80%81%E5%AF%BC%E5%8C%85%E5%92%8C%E5%B7%B2%E5%AF%BC%E5%85%A5%E7%9A%84%E6%A8%A1%E5%9D%97/</link>
+        <pubDate>Mon, 22 Feb 2021 22:02:02 +0800</pubDate>
+        <author>herschelma666@gmail.com (Herschel)</author>
+        <atom:modified>Mon, 22 Feb 2021 22:02:02 +0800</atom:modified>
+        <guid>http://herschel-ma.github.io/posts/%E5%8A%A8%E6%80%81%E5%AF%BC%E5%8C%85%E5%92%8C%E5%B7%B2%E5%AF%BC%E5%85%A5%E7%9A%84%E6%A8%A1%E5%9D%97/</guid>
+        <description>How to list imported modules How to enumerate all imported modules? E.g. I would like to get [&amp;lsquo;os&amp;rsquo;,&amp;lsquo;sys&amp;rsquo;] from this code: 1 2 import sys import os Answer liked most 所有加载模块都会出现在sys.moudles中 1 2 import sys sys.moudles.keys() An approximation of getting all imports for the current module only would</description>
+        
+        <dc:creator>Herschel</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>python</category>
+            
+          
+        
+        
+          
+            
+              <category>python</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

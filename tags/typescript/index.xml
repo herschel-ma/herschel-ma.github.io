@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>TypeScript on 积少成多</title>
+    <link>http://herschel-ma.github.io/tags/typescript/</link>
+    <description>Recent content in TypeScript on 积少成多</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <managingEditor>herschelma666@gmail.com (Herschel)</managingEditor>
+    <webMaster>herschelma666@gmail.com (Herschel)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Mon, 08 Feb 2021 21:36:26 +0800</lastBuildDate>
+    
+        <atom:link href="http://herschel-ma.github.io/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>认识TypeScript</title>
+        <link>http://herschel-ma.github.io/posts/%E8%AE%A4%E8%AF%86typescript/</link>
+        <pubDate>Mon, 08 Feb 2021 21:36:26 +0800</pubDate>
+        <author>herschelma666@gmail.com (Herschel)</author>
+        <atom:modified>Mon, 08 Feb 2021 21:36:26 +0800</atom:modified>
+        <guid>http://herschel-ma.github.io/posts/%E8%AE%A4%E8%AF%86typescript/</guid>
+        <description>TypeScript的介绍 TypeScript是一种有微软开发的开源，跨平台的编程语言，最终会被编译成为JavaScript代码。 2012年</description>
+        
+        <dc:creator>Herschel</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>TypeScript</category>
+            
+          
+        
+        
+          
+            
+              <category>TypeScript</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

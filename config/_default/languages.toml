@@ -1,0 +1,14 @@
+[en]
+  title = "Herschel's Blog"
+  languageName = "English"
+  weight = 2
+  languagedir = "ltr"
+  contentdir = "content/en"
+
+[zh]
+  title = "积少成多"
+  languageName = "Chinese"
+  weight = 1
+  languagedir = "ltr"
+  contentdir = "content/zh"
+
